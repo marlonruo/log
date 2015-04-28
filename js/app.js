@@ -27,6 +27,7 @@ document.addEventListener('deviceready',function() {
           $('.logged-in-box').show();
           $('.nickname').text(profile.nickname);
           $('.nickname').text(profile.name);
+		  $('.correo').text(profile.email);
           $('.avatar').attr('src', profile.picture);
         }
       });
